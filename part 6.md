@@ -18,4 +18,8 @@ Part 6: The Experiment - What they tested
                     -> If the world is just random noise, the AI will struggle.
 
             + Fill rate (Φ): How full is the truck? If the truck is mostly empty (high slack), routing is easy. If the truck is packed to the brim, 1 wrong guess about demand means trip back to the depot.
+            
+            + A priori vs. Reoptimization:
+                + A priori: Plan the whole route before you leave the depot, and stick to it, no matter what.
+                + Reoptimization: Adapt on the fly. If you find out a customer wants way more boxes, change the route dynamically.
                 
