@@ -8,4 +8,14 @@ Part 6: The Experiment - What they tested
             
         -> Then, to be incredibly thorough, they tested their AI under different "Settings", think of these as video game difficulty settings:
             + Inference strategy (How the AI makes decisions):
+                + Greedy: The AI picks the absolute best next step right now (like a short-sighted person).
+                + Sampling: The AI rolls a dice based on probabilities (gives different answers each time).
+                + Beam Search: The AI looks a few moves ahead (like a chess player).
+                    -> Result: Beam search won. -> Looking ahead is better.
+
+            + Signal ratio (A/B/Γ): How much does the weather actually tell us?
+                -> If the weather tells us everything, the AI should do great.
+                    -> If the world is just random noise, the AI will struggle.
+
+            + Fill rate (Φ): How full is the truck? If the truck is mostly empty (high slack), routing is easy. If the truck is packed to the brim, 1 wrong guess about demand means trip back to the depot.
             
