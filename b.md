@@ -15,4 +15,6 @@ The researcher wanted to test how good their AI is under different conditions.
                 -> The AI will struggle, but it will still try to minimize the damage -> by using "recourse" (driving back to the depot) efficiently.
 
 
+
+
     
