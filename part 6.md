@@ -18,4 +18,4 @@ Part 6: The Experiment - What they tested
                     -> If the world is just random noise, the AI will struggle.
 
             + Fill rate (Φ): How full is the truck? If the truck is mostly empty (high slack), routing is easy. If the truck is packed to the brim, 1 wrong guess about demand means trip back to the depot.
-            x
+                
