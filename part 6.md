@@ -22,4 +22,11 @@ Part 6: The Experiment - What they tested
             + A priori vs. Reoptimization:
                 + A priori: Plan the whole route before you leave the depot, and stick to it, no matter what.
                 + Reoptimization: Adapt on the fly. If you find out a customer wants way more boxes, change the route dynamically.
+                    -> Result: Adapting is better (just like using Google Maps rerouting you around a traffic jam)
+            
+            + Variable estimates: How does the AI guess future demand?
+                + Constant: "Customer A always orders 10 boxes".
+                + k-NN
+
+
                 
